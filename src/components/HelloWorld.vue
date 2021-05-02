@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="@/assets/logo.png" alt="s" />
     <h1>{{ msg }}</h1>
     <h2>
       {{ count }}
