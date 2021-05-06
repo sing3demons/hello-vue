@@ -21,17 +21,17 @@ export default {
   data() {
     return {
       count: 0,
-    }
+    };
   },
   methods: {
     onClick() {
-      this.count++
+      this.count++;
     },
     reset() {
-      this.count = 0
+      this.count = 0;
     },
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

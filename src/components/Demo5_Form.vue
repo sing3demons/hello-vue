@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form @submit="submit">
+    <form @submit.prevent="submit">
       <!-- v-on:submit.prevent="submit" -->
       <div>
         <label for="first_name">Firstname</label>
@@ -15,7 +15,7 @@
       <div>
         <label for="last_name">Lastname</label>
         <input type="text" name="last_name" v-model="applicant.last_name" />
-      </div>  
+      </div>
 
       <div>
         <label for="sex">Male</label>
@@ -47,25 +47,25 @@ export default {
   data() {
     return {
       applicant: {
-        first_name: "",
-        last_name: "",
-        sex: "male",
-        course: "vue",
+        first_name: '',
+        last_name: '',
+        sex: 'male',
+        course: 'vue',
       },
     };
   },
 
   methods: {
-    submit(e) {
-      e.preventDefault();
+    submit() {
+      // e.preventDefault();
       alert(JSON.stringify(this.applicant));
     },
     clear() {
       this.applicant = {
-        first_name: "",
-        last_name: "",
-        sex: "male",
-        course: "vue",
+        first_name: '',
+        last_name: '',
+        sex: 'male',
+        course: 'vue',
       };
     },
   },
