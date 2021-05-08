@@ -5,7 +5,10 @@
     <router-link to="/demo2">Event and Method</router-link> |
     <router-link to="/demo3">Data</router-link> |
     <router-link to="/demo4">Binging</router-link> |
-    <router-link to="/demo5">form</router-link>
+    <router-link to="/demo5">form</router-link> |
+    <router-link to="/demo7">slot</router-link> |
+    <router-link to="/demo8">condition</router-link> |
+    <router-link to="/demo9">loop</router-link>
     <br />
   </div>
 </template>

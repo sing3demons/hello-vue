@@ -8,6 +8,9 @@ import Demo2 from '../components/Demo2_EventMethod.vue'
 import Demo3 from '../components/Demo3_Data.vue'
 import Demo4 from '../components/Demo4_Binding.vue'
 import Demo5 from '../components/Demo5_Form.vue'
+import Demo7 from '../components/Demo7_Slot.vue'
+import Demo8 from '../components/Demo8_Condition.vue'
+import Demo9 from '../components/Demo9_Loop.vue'
 
 const routes = [{
     path: '/',
@@ -28,6 +31,15 @@ const routes = [{
 }, {
     path: "/demo5",
     component: Demo5
+}, {
+    path: "/demo7",
+    component: Demo7
+}, {
+    path: "/demo8",
+    component: Demo8
+}, {
+    path: '/demo9',
+    component: Demo9
 }]
 
 const router = createRouter({
