@@ -8,7 +8,9 @@
     <router-link to="/demo5">form</router-link> |
     <router-link to="/demo7">slot</router-link> |
     <router-link to="/demo8">condition</router-link> |
-    <router-link to="/demo9">loop</router-link>
+    <router-link to="/demo9">loop</router-link> |
+    <router-link to="/demo12">Ref</router-link> |
+    <router-link to="/demo13">Filter</router-link>
     <br />
   </div>
 </template>

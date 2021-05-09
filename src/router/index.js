@@ -11,6 +11,8 @@ import Demo5 from '../components/Demo5_Form.vue'
 import Demo7 from '../components/Demo7_Slot.vue'
 import Demo8 from '../components/Demo8_Condition.vue'
 import Demo9 from '../components/Demo9_Loop.vue'
+import Demo12 from '../components/Demo12_Ref.vue'
+import Demo13 from '../components/Demo13_Filter.vue'
 
 const routes = [{
     path: '/',
@@ -40,6 +42,12 @@ const routes = [{
 }, {
     path: '/demo9',
     component: Demo9
+}, {
+    path: '/demo12',
+    component: Demo12
+},{
+    path: '/demo13',
+    component: Demo13
 }]
 
 const router = createRouter({
